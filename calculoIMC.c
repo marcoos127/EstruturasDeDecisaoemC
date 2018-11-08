@@ -15,7 +15,7 @@ int main(int argc, char *argv[]){
 	scanf ("%f", &altura);
 	alt = altura * altura;
 	imc = (peso/alt);
-	printf ("Seu imc é de: %f ", &imc);
+	printf ("Seu imc é de: %f ", imc);
 	if (imc < 18){
 		printf ("Você está em estado de magreza");
 	}
